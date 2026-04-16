@@ -1,0 +1,109 @@
+/* ------------------------------------------------------------------------------------------
+Programs Page CSS Start Here
+-----------------------------------------------------------------------------------------------
+ */
+ :root{
+    --primary-color: #0A1F33;
+    --body: #021021;
+    --color1:#E6E6E6;
+    --color2:#CCCCCC;
+    --color:#808080;
+    --bgc:#021021;
+    --color3: #00C2CB;
+    
+}
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ .header{
+     width: 100%;
+     background-color: var(--primary-color);
+     height: 380px;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     border: 1px soild black;
+ }
+ h2{
+    color: var(--color1);
+    font-size: 50px;
+    text-align: left;
+    margin-left: 25px;
+ }
+ .program_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    
+    
+    
+ }
+
+.Card_section .card{
+height: 100%;
+width: 100%;
+
+
+}
+.box{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.card_imge{
+height: 200px;
+object-fit: cover;
+}
+
+.card-body{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+min-height: 80px;
+}
+
+.card-text a{
+    text-decoration: none;
+    color: var(--color1);
+}
+
+.card-text a:hover{
+     color: var(--color3);
+}
+
+/* -------------------Footer*/
+.copyright_box{
+    margin-top: 30px;
+   background-color: var(--bgc);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+   padding: 40px
+}
+.social_medIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   
+}
+.SM_Icon{
+    font-size: 37px;
+    color: white;
+    cursor: pointer;
+}
+.copyright{
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
