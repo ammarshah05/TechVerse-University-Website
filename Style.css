@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #0A1F33;
+    --body: #021021;
+    --color1:#E6E6E6;
+    --color2:#CCCCCC;
+    --color:#808080;
+    --bgc:#021021;
+    --color3: #00C2CB;
+    
+}
+
+body{
+    background-color: var(--color1);
+}
+
+
+/*Navbar CSS Portion*/
+.navbar{
+    background-color: var(--bgc);
+    height: 90px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.name_logo{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    
+
+    
+}
+
+.collapse{ 
+    /* border: 1px solid green; */
+     display: flex;
+    justify-content: flex-end;
+}
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.navbar-brand  img{
+    height: 70px;
+    /* border: 1px solid red; */
+}
+ 
+
+.uni_title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.techverse_text{
+    font-weight: bold;
+    color: var(--color2);
+}
+.uni_text{
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--color1);
+
+}
+
+.nav-link{
+    
+    color: var(--color2);
+    font-size: 18px;
+    margin-left: 15px;
+    font-weight: 600;
+   
+}
+
+.nav-link:hover{
+    border-bottom: 3px solid var(--color3);
+    padding-bottom: 3px;
+    color: var(--color2);
+    transition: 0.1s ease-in-out;
+   
+}
+
+/*   */
+
+.Btn{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 300px;
+    border: 2px solid red;
+    
+    
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.main_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.welcome_text{
+     color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-decoration-color: #d4a574;
+    text-decoration-thickness: 4px;
+    text-align: center;
+    margin-top: 40px;
+}
+.wel_subtext{
+    font-size: 15px;
+    color: rgb(100, 99, 99);
+    text-align: center;
+    width: 50%;
+    margin-top: 20px;
+    
+
+}
+.Card_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card_text{
+    color: rgb(138, 135, 135);
+    font-weight: 500;
+    font-size: small;
+}
+.card_body{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 30px;
+}
+.card_link{
+    text-decoration: none;
+    color:  white;
+    background-color:#1579c5;
+    padding: 2px;
+    font-size: 10px;
+    border-radius: 4px;
+}
+.card_link:hover{
+    color: white;
+}
+
+
+/* ---------------Section */
+.section_title{
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 30px;
+}
+
+.section_title::before{
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: var(--blue-color);
+}
+
+.Card_section{
+  /* border: 1px solid red; */
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.card-body{
+    background-color: var(--bgc);
+    border-bottom-right-radius: 8px ;
+    border-bottom-left-radius: 8px;
+    cursor: pointer;
+
+    
+}
+
+.card_imge{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.Card{
+   
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.card-text{
+    color: var(--color1);
+    text-align: center;
+}
+.card-text:hover{
+    color: var(--color3);
+    transition: 0.3s ease-in-out;
+}
+
+/* -------------------Footer*/
+.copyright_box{
+    margin-top: 30px;
+   background-color: var(--bgc);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+   padding: 40px
+}
+.social_medIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   
+}
+.SM_Icon{
+    font-size: 37px;
+    color: white;
+    cursor: pointer;
+}
+.copyright{
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------
+Programs Page CSS Start Here
+-----------------------------------------------------------------------------------------------
+ */
+
+ .header{
+     width: 100%;
+     background-color: var(--primary-color);
+     height: 380px;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     border: 1px soild black;
+ }
+ h2{
+    color: var(--color1);
+    font-size: 50px;
+    text-align: left;
+    margin-left: 25px;
+ }
+ .program_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    
+ }
+
