@@ -1,0 +1,32 @@
+:root{
+    --primary-color: #0A1F33;
+    --body: #021021;
+    --color1:#E6E6E6;
+    --color2:#CCCCCC;
+    --color:#808080;
+    --bgc:#021021;
+    --color3: #00C2CB;
+    
+}
+
+
+.admission_container{
+ 
+   margin-bottom: 30px;
+   margin-top: 30px;
+   
+}
+h3{
+    background-color: var(--bgc) ;
+    color: var(--color1);
+    width: 80%;
+    padding: 5px;
+    margin-left: 10px;
+}
+.li{
+    list-style: none;
+       margin-left: 30px;
+       font-weight: 500;
+       margin-top: 5px;
+    
+}
